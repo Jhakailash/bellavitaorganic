@@ -1,0 +1,595 @@
+*{
+    margin: 0px;
+}
+.offer{
+    height: 40px;
+    width: 100%;
+    border: 0px solid red;
+    background-color: #f3c746;
+    text-align: center;
+}
+#nav{
+    border: 0px solid red;
+    height: 100px;
+    width: 100%;
+}
+#logoleft{
+    font-family: 'Century Gothic, sans-serif, Arial, sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Museo Sans", sans-serif;  
+    padding: 5px;
+    font-size: 20px;
+    color: #232323;
+}
+#logo_section{
+    border: 0px solid red;
+    width: 15%;
+    height: 60px;    
+    display: block;
+    display: inline-block;
+}
+#menufonts{
+    font-family: 'Museo Sans, sans-serif';
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 20px;
+    color: #000000;
+}
+#menu_area{
+    border: 0px solid red;
+    margin: 15px;
+    height: 40px;
+    margin-right: 75px;
+    width: 65%;
+    display: inline-block;
+}
+#Fimg{
+    border: 0px solid blue;
+    margin-bottom: -20px;
+}
+#menu_area_container{
+    font-family: "Museo Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 20px;
+    width: 110%;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}
+#menu_area_container > div{
+    height: 30px;
+    width: 99%;
+}
+#menu_area_container > div > a{
+    color:rgb(56, 55, 55);
+    text-decoration: none;
+}
+#menu_area_down{    
+    height: 30px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5px;
+}
+#menu_area_down > div{
+    font-family: 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    height: 30px;
+    width: 60%;
+    grid-template-columns: repeat(3,10px);
+}
+#logo_right{
+    height: 30px;
+    width: 11%;
+    display: inline-block;
+}
+#logo_right >div{   
+    margin-right: -40px;
+    margin-left: 47px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#logo_right >div >div{  
+   font-size: 21px;
+}
+.cartCount{
+    position: absolute;
+    top: 60px;
+    min-width: 23px;
+    min-height: 23px;
+    text-align: center;
+    padding: 2px 0 0 1px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 50px;
+}
+.menuNew{
+    position: absolute;
+    top: 40px;
+    font-size: 12px;
+    left: 685px;
+    min-width: 22px;
+    min-height: 23px;
+    text-align: center;
+    padding: 2px 0 0 1px;
+    color: #1e1e1e;
+    background-color: #f3c621;
+}
+#info{
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 110px;
+}
+#info1{
+    border: 0px solid green;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#info1:hover{
+    cursor: pointer;
+    background-color: rgb(187, 187, 227);
+
+}
+#info1 img{
+    height: 60px;
+    width: 20%;
+}
+#hr1{
+    width: 25%;
+    margin-left: 954px;
+    margin-top: -31px;
+    margin-bottom: 37px;
+}
+#hr2{
+    width: 25%;
+    margin-left: 180px;
+    margin-top: -39px;
+    margin-bottom: -20px;
+}
+#shop{
+   
+    border: 0px solid red;
+    height: 44px;
+    width: 20%;
+    margin: auto;
+    margin-top: 72px;
+    font-size: 25px;
+    font-family: "Museo Sans", sans-serif;
+}
+#price{
+    border: 0px solid red;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,400px);
+}
+#hr3{
+    width: 25%;
+    margin-left: 924px;
+    margin-top: -31px;
+    margin-bottom: 37px;
+}
+#hr4{
+    width: 25%;
+    margin-left: 180px;
+    margin-top: -39px;
+    margin-bottom: -20px;
+}
+#media{
+    border: 0px solid blue;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#media1{
+    width: 18%;
+    height: 250px;
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#media1:hover{
+    cursor: pointer;
+    background-color: rgb(233, 227, 227);
+    color: #e2e8cc;
+}
+#mediaIMG{
+    width: 100%;
+    margin-top: 35px;
+}
+#mediaIMG:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+#media1>div>p{
+    text-align: center;
+    line-height: 23px;
+    color: gray;
+}
+/* MORE LOVE FOR BELLA VITA ORGANIC */
+#morelove{
+    height: 530px;
+    border: 1px solid #e2e8cc;
+    background-color: #e2e8cc;
+    margin-top: 50px;
+}
+#morelove1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: "Museo Sans", sans-serif;
+}
+#moreimg{
+    height: 196px;
+    width: 205px;
+}
+#morelove2{
+    border: 0px solid red;
+    width: 15%;
+    height: 330px;
+    margin: auto;
+}
+#morelovep>p{
+    text-align: center;
+    line-height: 25px;
+    border: 0px solid red;
+    width: 50%;
+    margin: auto;
+    font-family: "Museo Sans", sans-serif;
+}
+#SHOPPING {
+    height: 750px;
+    border: 0px solid red;
+    background-color: #f3fbef;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    justify-content: center;
+}
+#SHOPPING1{
+    font-family: "Museo Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    border: 0px solid red;
+    width: 22%;
+    margin: auto;
+    padding-top: 40px;
+
+}
+#SHOPPING2{
+    font-family: "Museo Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border: 0px solid red;
+    width: 29%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+#SHOPPINGimg{
+    border: 0px solid red;
+    padding-left: 182px;
+    height: 615px;
+    width: 332px;
+}
+#SHOPPING3{
+    height: 361px;
+    border: 0px solid red;
+    width: 28%;
+    padding: -1px;
+    margin-left: 821px;
+    margin-top: -498px;
+    width: 33%;
+}
+#SHOPPING4{
+    font-family: "Museo Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgb(85, 82, 82);
+}
+#SHOPPING5{
+   padding: 30px;
+   width: 30%;
+}
+#SHOPPING6{
+    padding: 30px;
+    width: 30%;
+ }
+ /* <!-- BECOME PART OF OUR EXCLUSIVE BELLA CASH! --> */
+ #BELLACASH{
+    border: 0px solid red;
+    height: 670px;
+   
+}
+ #BELLACASH1{
+    text-align: center;
+    padding-top: 95px;
+    font-family: "Museo Sans", sans-serif;
+    font-size: 20px;
+    color: rgb(70, 66, 66);
+ }
+ #BELLACASHmain{
+    
+    height: 50px;
+    width: 70%;
+    display: flex;
+    gap: 58px;
+    justify-content: space-between;
+    justify-content: center;
+    margin: auto;
+    height: 121px;
+    padding-top: 87px;
+ }
+ 
+ #BELLACASHmain>div{
+    border: 0px solid red;
+    width: 50%;
+    border-radius: 59px;
+    background-color: #cdd9e0
+ }
+ #BELLACASHmain2{
+    height: 50px;
+    width: 34%;
+    display: flex;
+    gap: 58px;
+    justify-content: space-between;
+    justify-content: center;
+    margin: auto;
+    height: 125px;
+    padding-top: 87px;
+ }
+ #BELLACASHmain2>div{
+    border: 0px solid red;
+    width: 50%;
+    border-radius: 45px;
+    border-radius: 55px;
+    background-color: #cdd9e0
+ }
+ #BELLACASHp{
+    text-align: center;
+    margin-top: 14px;
+    color: rgb(37, 35, 35);
+ }
+ #BELLACASHP{
+    text-align: center;
+    color: gray;
+ }
+ #icon{
+    font-size: 74px;
+    text-align: center;
+    padding: 25px;
+    color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 62%;
+    border-radius: 57px;
+    cursor: pointer;
+ }
+ #icon:hover{
+     color: red;
+ }
+ #hr5{
+    width: 15%;
+    margin-left: 219px;
+    margin-top: -31px;
+    margin-bottom: 37px;
+}
+#hr6{
+    width: 15%;
+    margin-left: 1060px;
+    margin-top: -39px;
+    margin-bottom: -20px;
+}
+#shop2{
+    border: 0px solid red;
+    height: 44px;
+    width: 40%;
+    margin: auto;
+    margin-top: 72px;
+    font-size: 25px;
+    font-family: "Museo Sans", sans-serif;
+}
+#redeem{
+    height: 340px;
+}
+#redeem>img{
+    height: 126px;
+    width: 33%;
+    padding-left: 468px;
+    padding-top: 90px;
+}
+#redeemp{
+    display: flex;
+}
+#btnredeem1{
+    border: 0px solid red;
+    height: 40px;
+    width: 10%;
+    margin: auto;
+    margin-top: 47px;
+    background-color: #52b359;
+    cursor: pointer;
+    color: whitesmoke;
+}
+#QUICKLINK{
+    height: 100px;
+    width: 99%;
+}
+#QUICKLINK>div{
+    height: 80px;
+    border: 2px solid rgb(191, 184, 184);
+    width: 100%;
+    margin-top: 12px;
+}
+#QUICKLINKp{
+    font-family: "Museo Sans", sans-serif;
+    color: red;
+    font-size: 25px;
+}
+    
+
+/* footer top area start */
+.footer-top-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    height: 40px;
+    padding: 20px;
+    margin-bottom: 75px;
+}
+.white-custom {
+    color: #000;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Museo Sans", sans-serif;
+    margin-left: -115px;
+}
+/* footer top area end */
+
+
+/* footer */
+#footer {
+    /* border: 1px solid red; */
+    height: 350px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+#footer >div{
+    /* border: 1px solid red; */
+    height: 350px;
+    width: 24%;
+    margin-left: -49px;
+}
+.font-weight-bold {
+    font-weight: 700 !important;
+    color: #3f3e3e;
+    padding: 10px;
+    font-size: 13px;
+    font-family: "Museo Sans", sans-serif;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+h5{
+    font-family: Museo Sans,sans-serif!important;
+}
+.footer-hr{
+    width: 70px;
+    margin: 8px;
+    background-color: rgb(112, 206, 112);
+}
+.footer-links{
+    font-size: 18px;
+    padding: 15px;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    line-height: 25px;
+}
+.footer-p{
+    padding: 5px;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+}
+.footer-icon{
+    font-size: 16px;
+    color: #52B359;
+    line-height: 15px;
+    
+}
+.line-10{
+    line-height: 21px;
+    font-family: "Museo Sans", sans-serif;
+    font-size: 13px;
+    width: 16%;
+}
+.pad-7{
+    padding: 5px;
+    margin: 7px;
+}
+.footer-contact{
+    color: #000;
+    line-height: 24px;
+    letter-spacing: normal;
+    font-family: Museo Sans,sans-serif!important;
+    font-size: 13px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.footer-textbox{
+    height: 30px; width: 220px;
+}
+.footer-btn{
+    height: 40px;
+    width: 120px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+/* footer-bottom area */
+.container-ft-bt{
+    height: 60px;
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid red;     */
+}
+.fl-area{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.fb-ic{
+    height: 130px;
+    width: 555px;
+}
+.ft-24{
+    font-size: 24px;
+    color: #000;
+}
+.icon-holer{
+    display: flex;
+    justify-content: space-around;
+    width: 16%;
+}
+
+
+
+
+
+
+/* media quary */
+
+@media all and (min-width: 421px) and (max-width: 765px){
+   
+
+}
+ @media all and (min-width: 80px) and (max-width: 420px){
+  
+
+}

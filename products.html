@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link href="css/products.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <style>
+        #container-products{
+            width: 75%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+            float: right;
+            margin-right: 50px;
+            background-color: white;
+        }
+        #container-products>div{
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            overflow: -moz-hidden-unscrollable;
+        }
+        #pic{
+            width: 100%;
+            
+        }
+        .price{
+            display: flex;
+            justify-content: space-around;
+             align-items: center;
+            font-size: 18px;
+        }
+        #para{
+         font-weight: 500;
+         font-size: 15px;
+        }
+        @media all and (min-width:850px) and (max-width:1000px){
+            
+            #container-products{
+                width:1000px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            float: right;
+            margin-right: 50px;
+        }
+        }
+        @media all and (min-width:381px) and (max-width:700px){
+            
+            #container-products{
+            width:700px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            float: right;
+            margin-right: 50px;
+        }
+        }
+        @media all and (min-width:50px) and (max-width:380px){
+            
+            #container-products{
+                width:380px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+            float: right;
+            margin-right: 50px;
+        }
+        }
+        .banner-bg{
+            padding: 30px 0;
+    background-image: url(https://cdn.shopify.com/s/files/1/0054/6665/2718/files/1_1_ecef2245-1d82-431e-b32d-5d704e1e620d.jpg?v=1606463237);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+        }
+    </style>
+  </head>
+  <body>
+   <div class="offer"><strong>New Users get 10% Off above ₹599! Code - NEW10</strong></div>
+
+   <div id="nav">
+     <a href="./index.html">
+      <div id="logo_section">
+        <p id="logoleft">BELLA VITA ORGANIC</p>
+        <p style="text-align: center; margin-left: -60px;">new age ayurveda</p>
+      </div>
+     </a>
+
+     <div id="menu_area">
+       <div id="menu_area_container">
+        <div style="margin-left: 20px;">ALL PRODUCTS</div>
+        <div style="margin-left: 30px;">BESTSELLERS</div>
+        <div style="margin-left: 25px;">OFFERS</div>
+        <div style="margin-left: -13px;">BUILD A BOX
+        </div>
+        <div style="margin-left: 10px;">BY CATEGORY</div>
+        <div>BY CONECERN</div>
+        <div>BY INGREDIENT</div>
+        <div>COMOBOS</div>
+        <div>MORE</div>
+       </div>
+     </div>
+
+     <div id="logo_right">
+       <div>
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div><a href="./signin.html"><i class="fa-regular fa-user"></i></a></div>
+        <div><a href="./buy.html"><i class="fa-solid fa-cart-shopping" style="color: black;"></i></a>
+          <span class="cartCount" data-cart-count="">
+          0
+          </span>
+        </div>
+       </div>
+     </div>
+
+     <div></div>
+   </div>
+
+   <!-- above is menu area -->
+
+   <!-- slider area start -->
+   <div style="width: 100%;" class="banner-bg">
+    <div class="font-100" style="font-size: 25px; font-weight: 500; margin-left: 114px;"><p>BESTSELLERS</p></div>
+      <img id="Bimg" src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/15th_feb_cglow_banner_1.png?v=1648022281" />
+   </div>
+   <!-- slider area end -->
+
+
+   <!-- Main content start -->
+
+   
+   <div id="container-products"   ></div>
+
+
+
+
+   <!-- Main content end -->
+
+
+   <!-- footer top area start here -->
+   <div style="width:100%; height:50px;  margin-top:4850px; margin-bottom: 30px;">
+    <div style="background-color:#d5e0ea;" >
+        <div class="container">
+          <div class="footer-top-flex">
+            <div class="">
+              <h5 class="white-custom">We are also available on PlayStore and AppStore</h5>
+            </div>
+            <div class="">
+              <a href="http://onelink.to/36cjts" class="mobile-app">
+              <img src="https://cdn.shopify.com/s/files/1/0439/5456/9367/files/1.png?v=1602914357" alt="google play store" sizes="130px">
+              </a>
+              <a href="https://apps.apple.com/in/app/bella-vita-organic/id1533795247" >
+              <img src="https://cdn.shopify.com/s/files/1/0439/5456/9367/files/2_1.png?v=1602914345" alt="app play store" sizes="130px">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div></div>
+   <!-- footer top area end here -->
+
+
+   <!-- footer area -->
+
+   <div id="footer">
+    <div>
+      <h5 class="font-weight-bold text-uppercase"> Online Presence</h5>
+      <hr class="footer-hr"/>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="https://www.amazon.in/stores/page/B662F65E-796B-418E-A4E3-2FCAE5E3C668?ingress=3&visitId=1fb8c360-930b-4af1-b458-4dc5c999c29c">Amazon </a></p>
+      <p class="footer-p"> <a class="footer-links" target="_blank"  href="https://www.nykaa.com/search/result/?q=bella+vita+organic">Nykaa</a></p>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="https://www.flipkart.com/search?q=bella+vita+organic&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_0_18_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_0_18_na_na_na&as-pos=0&as-type=RECENT&suggestionId=bella+vita+organic&requestId=57ee90ce-943d-47a1-901c-08aa86f30ded&as-searchtext=bella%20vita%20organic">Flipkart</a></p>
+      <p class="footer-p"><a class="footer-links" href="https://www.mirraw.com/search?utf8=%E2%9C%93&q=bella+vita+organic" >Mirraw</a></p>
+    </div>
+
+    <div>
+      <h5 class="font-weight-bold text-uppercase"> INFORMATION</h5>
+      <hr class="footer-hr"/>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="https://bellavitaorganic.com/blogs/bellavita-blogs">Blogs </a></p>
+      <p class="footer-p"> <a class="footer-links" target="_blank"  href="https://bellavitaorganic.com/blogs/news-media">Newsroom</a></p>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="https://bellavitaorganic.com/pages/terms-and-conditions">Terms & Conditions</a></p>
+      <p class="footer-p"><a class="footer-links" href="https://bellavitaorganic.com/pages/privacy-policy" >Privacy Policy</a></p>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="https://bellavitaorganic.com/pages/refund-and-return" >Refund and Return</a></p>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="https://bellavitaorganic.com/pages/shipping-policy" >Shipping Policy</a></p>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="https://bellavitaorganic.com/pages/reward-policy" >Reward Policy</a></p>
+    </div>
+
+
+    <div>
+      <h5 class="font-weight-bold text-uppercase"> SUPPORT</h5>
+      <hr class="footer-hr"/>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="https://bellavitaorganic.com/pages/philosophy">About Us </a></p>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="">Contact Us </a></p>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="">Order Tracking </a></p>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="">All Products </a></p>
+      <p class="footer-p"><a class="footer-links" target="_blank" href="">FAQ </a></p>
+    </div>
+    <div style="width: 25%;">
+      <h5 class="font-weight-bold text-uppercase"> CONTACT US</h5>
+      <hr class="footer-hr"/>
+      <p class="footer-p pad-7"><span class="footer-icon"><i class="fa-solid fa-house-chimney"></i></span> <a class="footer-links line-10">Office Location: Plot no. 417, Udyog Vihar Phase III Sector 20, Gurugram, Haryana,India</a></p>
+      <p class="footer-p pad-7"><span class="footer-icon"><i class="fa-solid fa-envelope"></i></span> <a class="footer-links">shop@bellavitaorganic.com</a></p>
+      <p class="footer-p pad-7"><span class="footer-icon"><i class="fa-solid fa-phone-flip"></i></span> <a class="footer-links">+91 9311732440</a></p>
+      <p class="footer-p pad-7"><span class="footer-icon"><i class="fas fa-business-time"></i></span> <a class="footer-links">Timing:8:00 AM To 8:00 PM , Monday To Sunday</a></p>
+    </div>
+    <div style="width: 28%; margin-left: 40px;">
+      <h5 class="font-weight-bold text-uppercase"> OUR NEWSLETTER</h5>
+      <hr class="footer-hr"/>
+      <p class="footer-contact">Sign up here to get the latest news, updates and special offers delivered to your inbox.</p>
+      <p class="footer-contact mt-10" >Plus, you'll be the first to know about our discounts!</p>
+      <form>
+        <div>
+          <input class="footer-textbox" type="email" name="contact[email]" aria-label="Email Address" placeholder="enter your email address" required="required">
+                
+        </div>
+        <div>
+          <input type="submit" class="footer-btn" value="Submit">
+        </div>
+    </form>
+    </div>
+
+   </div>
+   <!-- footer end here -->
+
+   
+
+   <!-- footer bottom area start-->
+   <div style="background-color:#d5e0ea; margin-top: 150px;">
+    <div class="container-ft-bt">
+      <div style="padding: 15px;" class="fl-area">
+        <div class="">
+          <img style="height: 20px;" src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/payments-stripe-sub-footer_2.svg?v=1616140901" alt="payment icons" width="100%">
+        </div>
+        <div class="icon-holer">
+          <a class="ft-24" href="https://www.facebook.com/bellavitaorganic/" target="_blank">
+          <i class="fab fa-facebook-square white-text"> </i>
+          </a>
+          <a class="ft-24" href="https://twitter.com/bellavita_org?s=08" target="_blank">
+          <i class="fab fa-twitter-square white-text mr-4"> </i>
+          </a>
+          <a class="ft-24" href="https://www.instagram.com/bellavita.organic/" target="_blank">
+          <i class="fab fa-instagram white-text"> </i>
+          </a>
+          <a class="ft-24" href="https://in.pinterest.com/BellaVitaOrg/" target="_blank">
+          <i class="fab fa-pinterest-square white-text"> </i>
+          </a>
+          <a class="ft-24" href="https://www.youtube.com/c/BellaVitaOrganicIndia" target="_blank">
+          <i class="fab fa-youtube white-text"> </i>
+          </a>
+        </div>
+        <div class="col-md-2 col-lg-2 text-center text-md-center">
+          <div>
+            <p>©2020 Bella Vita Organic</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- footer bottom area end-->
+
+   <!-- Modal start here -->
+   <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Some text in the Modal..</p>
+    </div>
+  
+  </div>
+   <!-- Modal end here -->
+   <script>
+
+      var cartCnt = +window.localStorage.getItem('cartItemCount');
+      if(cartCnt){
+        document.getElementsByClassName('cartCount')[0].innerHTML = cartCnt;
+      }
+      
+
+    var buyArr=JSON.parse(localStorage.getItem("selectProduct")) || [];
+    console.log(buyArr);
+    var allproductdata=JSON.parse(localStorage.getItem("productData")) || [];
+    console.log(allproductdata);
+    productDisplay();
+    function productDisplay(){
+    allproductdata.map(function(elem,index,array){
+        var innerdiv=document.createElement("div");
+        var div=document.createElement("div");
+        var image=document.createElement("img");
+        image.setAttribute("src",elem.img)
+        image.setAttribute("id","pic")
+        div.append(image);
+        var btn=document.createElement("button");
+        btn.setAttribute('class','buy_now_btn')
+        btn.style.width="100%";
+        btn.style.height="40px";
+        btn.style.backgroundColor="black";
+        btn.style.color="white";
+        btn.style.cursor="pointer";
+        btn.innerText="BUY NOW";
+        
+    
+        var pname=document.createElement("p");
+        pname.setAttribute("id","para")
+        pname.setAttribute("class","f")
+        pname.innerText=elem.pname;
+    
+        var div2=document.createElement("div")
+        div2.setAttribute("class","price")
+    
+        var offprice=document.createElement("s");
+        offprice.innerText= "Rs." + elem.offprice;
+        
+        var price=document.createElement("p");
+        price.innerText="Rs." + elem.price;
+         
+        btn.addEventListener("click", function () {
+            var cartArr=[];
+            cartArr.push(elem);
+            console.log(cartArr);
+            localStorage.setItem("gotocard",JSON.stringify(cartArr));
+            addToCart(elem);
+            window.location.href = "buy.html";
+          });
+        div2.append(offprice,price)
+    
+        innerdiv.append(div,btn,pname,div2);
+        document.querySelector("#container-products").append(innerdiv);
+    });
+    function addToCart(elem){
+           elem.quant=1;
+           elem.calculatedPrice=elem.price;
+           console.log(elem);
+           buyArr.push(elem);
+           console.log(buyArr);
+           localStorage.setItem("selectProduct",JSON.stringify(buyArr));
+           var cartCnt = +window.localStorage.getItem('cartItemCount');
+           console.log(typeof cartCnt);
+           if(cartCnt>0){
+            cartCnt = cartCnt+1;
+           }else{
+            cartCnt = 1;
+           }
+           console.log(cartCnt)
+           window.localStorage.setItem('cartItemCount',cartCnt);
+
+           var cartTotal = +window.localStorage.getItem('cartTotal');
+           console.log(cartTotal,elem.price)
+          if(cartTotal!=0){
+            cartTotal = cartTotal+elem.price
+            window.localStorage.setItem('cartTotal',cartTotal)
+          }else{
+            window.localStorage.setItem('cartTotal',elem.price);
+          }
+          
+
+          
+         }
+        }
+    
+
+        /* modal */
+
+        var modal = document.getElementById("myModal");
+
+          // Get the button that opens the modal
+          var btn = document.getElementById("myBtn");
+
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks the button, open the modal 
+          btn.onclick = function() {
+            modal.style.display = "block";
+          }
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function() {
+            modal.style.display = "none";
+          }
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          }
+    
+    </script>
+    <script src="js/index.js"></script>
+    <script src="product.js"></script>
+    
+  </body>
+</html>
+
+

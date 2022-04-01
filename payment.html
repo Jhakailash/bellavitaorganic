@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        #topimg{
+            border: 0px solid red;
+            height: 260px;
+            width: 100%;
+        }
+        #bigcontainer{
+            border: 0px solid red;
+            height: 700px;
+            width: 60%;
+            margin-left: 145px;
+        }
+        #contact{
+            border: 0px solid blue;
+            height: 50px;
+            width: 100%;
+            margin-top: 40px;
+            display: flex;
+            gap: 500px;
+            align-items: center ;
+        }
+        #contact>div{
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+        #bigemail{
+            height: 38px;
+            width: 99%;
+        }
+        #bigcheckbox{
+            height: 21px;
+            width: 3%;
+            margin-top: 20px;
+        }
+        #bigsms{
+            margin-top: -24px;
+            margin-left: 37px;
+            font-family: sans-serif;
+            color: rgb(80, 77, 77);
+        }
+        #bigship{
+            font-family: sans-serif;
+            color:rgb(80, 77, 77);
+            margin-top: 13px;
+        }
+        #bigname{
+            display: flex;
+            gap: 40px;
+        }
+        #firstname{
+            height: 40px;
+            width: 47%;
+            margin-top: 20px;
+        }
+        #lastname{
+            height: 40px;
+            width: 47%;
+            margin-top: 20px;
+        }
+        #bigaddress{
+            height: 38px;
+            width: 99%;
+            margin-top: 20px;
+        }
+        #bigaddress2{
+            height: 38px;
+            width: 99%;
+            margin-top: 20px;
+        }
+        #bigpincode{
+            display: flex;
+            gap: 50px;
+        }
+        #bigpincode1{
+            height: 38px;
+            width: 37%;
+            margin-top: 20px;
+        }
+        #bigpincode2{
+            height: 43px;
+            width: 14%;
+            margin-top: 20px;
+        }
+        #bigpincode3{
+            height: 38px;
+            width: 37%;
+            margin-top: 20px;
+        }
+        #bigphone{
+            height: 38px;
+            width: 99%;
+            margin-top: 20px;
+        }
+        #bigbtn{
+            height: 50px;
+            width: 100%;
+            margin-top: 20px;
+            font-family: sans-serif;
+            font-size: medium;
+            font-weight: bold;
+            color: whitesmoke;
+            background-color: black;
+            border: none;
+        }
+        #bigbtn:hover{
+            background-color: #52b359;
+            cursor: pointer;
+        }
+        #bigbrand{
+            height: 34px;
+            margin-left: 23px;
+            margin-top: 39px;
+        }
+        #last{
+            display: flex;
+            gap: 30px;
+            margin-top: 15px;
+            color: rgb(97, 97, 97);
+            
+        }
+    </style>
+</head>
+<body>
+     
+    <img id="topimg" src="https://www.couponzania.com/wp-content/uploads/2022/03/Buy-3-Get-1-Free-Offer-Bellavita-Organic.webp" />
+    
+    </div> 
+    <div id="bigcontainer">
+        <div id="contact">
+            <div>CONTACT INFORMATION</div>
+            <div>Already have an account?<span style="font-family: sans-serif; color: rgb(44, 163, 44);">LOG IN</span></div>
+        </div>
+        <input id="bigemail" type="email" placeholder="Email">
+        <input id="bigcheckbox" type="checkbox">
+        <p id="bigsms">Email/SMS me with news and offers</p>
+        <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p id="bigship">SHIPPING ADDRESS</p>
+        <div id="bigname">
+            <input id="firstname" type="name" placeholder="Firstname">
+            <input id="lastname" type="name" placeholder="Lastname">
+        </div>
+        <input id="bigaddress" type="text" placeholder="Flat, House No, Building, Company, Apartment">
+        <input id="bigaddress2" type="text" placeholder="Area, Colony, Street, Sector, Village">
+        <div id="bigpincode">
+            <input id="bigpincode1" type="text" placeholder="City">
+            <select id="bigpincode2">State</select>
+            <input id="bigpincode3" type="number" placeholder="Pincode">
+        </div>
+        <input id="bigphone" type="number" placeholder="Phone number">
+        <a href="./thankyou.html"><button id="bigbtn">CONTINUE TO SHIPPING & PAYMENT</button></a>
+        <img id="bigbrand" src="https://cdn.shopify.com/s/files/1/0054/6665/2718/files/payments-stripe-sub-footer_2.svg?v=1616140901" />
+        <hr style="margin-top: 20px;" />
+        <div id="last">
+        <p>Refund Policy</p>
+        <p>Privacy Policy</p>
+        </div>
+    </div>
+</body>
+</html>
